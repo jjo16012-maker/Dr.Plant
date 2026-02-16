@@ -8,7 +8,9 @@ __pycache__/
 .streamlit/secrets.toml
 
 # 학습/백업용 - 실행에 필요 없음
-training/
+training/dataset/
+training/best_resnet50*
+training/result_graph*
 dataset/
 saved_models/
 test_image/
