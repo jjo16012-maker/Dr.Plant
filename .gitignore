@@ -1,0 +1,20 @@
+# 가상환경
+venv/
+env/
+__pycache__/
+.DS_Store
+
+# 로컬 설정/비밀 (보안파일)
+.streamlit/secrets.toml
+
+# 학습/백업용 - 실행에 필요 없음
+training/
+dataset/
+saved_models/
+test_image/
+plant_db.sql
+disease_solution.csv
+temp_upload*
+*.log
+import_disease_solution.py
+db_solution(1).py
